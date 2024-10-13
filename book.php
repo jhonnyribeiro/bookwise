@@ -1,3 +1,7 @@
+<?php
+$id = $_REQUEST['id'];
+?>
+
 <!DOCTYPE html>
 <html lang="pt_br">
 
@@ -26,7 +30,7 @@
     </header>
 
     <main class="mx-auto max-w-screen-lg space-y-6">
-        Livro
+        ID do Livro <?= $id ?>
     </main>
 
 </body>
