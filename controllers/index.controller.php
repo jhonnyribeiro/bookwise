@@ -1,4 +1,6 @@
 <?php
 require "data.php";
 
-view('index');
+view('index', [
+    'books' => $books,
+]);
