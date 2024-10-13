@@ -1,3 +1,15 @@
+<?php
+
+$books = [
+    ['id' => 1, 'title' => 'Quarta Asa #1', 'author' => 'Rebecca Yarros', 'description' => 'Um dragão sem seu cavaleiro é uma tragédia. Um cavaleiro sem seu dragão é um homem morto. Em Quarta Asa, best-seller #1 do The New York Times, uma jovem precisa sobreviver ao treinamento em uma escola de elite para poderosos cavaleiros de dragões, onde a única regra é se formar... ou morrer tentando. ... '],
+    ['id' => 2, 'title' => 'Quarta Asa #2', 'author' => 'Rebecca Yarros', 'description' => 'Um dragão sem seu cavaleiro é uma tragédia. Um cavaleiro sem seu dragão é um homem morto. Em Quarta Asa, best-seller #1 do The New York Times, uma jovem precisa sobreviver ao treinamento em uma escola de elite para poderosos cavaleiros de dragões, onde a única regra é se formar... ou morrer tentando. ... '],
+    ['id' => 3, 'title' => 'Quarta Asa #3', 'author' => 'Rebecca Yarros', 'description' => 'Um dragão sem seu cavaleiro é uma tragédia. Um cavaleiro sem seu dragão é um homem morto. Em Quarta Asa, best-seller #1 do The New York Times, uma jovem precisa sobreviver ao treinamento em uma escola de elite para poderosos cavaleiros de dragões, onde a única regra é se formar... ou morrer tentando. ... '],
+    ['id' => 4, 'title' => 'Quarta Asa #4', 'author' => 'Rebecca Yarros', 'description' => 'Um dragão sem seu cavaleiro é uma tragédia. Um cavaleiro sem seu dragão é um homem morto. Em Quarta Asa, best-seller #1 do The New York Times, uma jovem precisa sobreviver ao treinamento em uma escola de elite para poderosos cavaleiros de dragões, onde a única regra é se formar... ou morrer tentando. ... '],
+    ['id' => 5, 'title' => 'Quarta Asa #5', 'author' => 'Rebecca Yarros', 'description' => 'Um dragão sem seu cavaleiro é uma tragédia. Um cavaleiro sem seu dragão é um homem morto. Em Quarta Asa, best-seller #1 do The New York Times, uma jovem precisa sobreviver ao treinamento em uma escola de elite para poderosos cavaleiros de dragões, onde a única regra é se formar... ou morrer tentando. ... '],
+];
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt_br">
 
@@ -34,97 +46,21 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <!-- Lista de livros -->
-            <div class="p-2 rounded border-stone-800 border-2 bg-stone-900">
-                <div class="flex">
-                    <div class="w-1/3">Imagem</div>
-                    <div>
-                        <a href="/book.php?" class="font-semibold hover:underline">Título</a>
-                        <div class="text-xs italic">Autor</div>
-                        <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
+            <?php foreach ($books as $book): ?>
+                <div class="p-2 rounded border-stone-800 border-2 bg-stone-900">
+                    <div class="flex">
+                        <div class="w-1/3">Imagem</div>
+                        <div class="space-y-1">
+                            <a href="/book.php?<?= $book['id'] ?>" class="font-semibold hover:underline"><?= $book['title'] ?></a>
+                            <div class="text-xs italic"><?= $book['author'] ?></div>
+                            <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
+                        </div>
+                    </div>
+                    <div class="text-sm mt-2">
+                        <?= $book['description'] ?>
                     </div>
                 </div>
-                <div class="text-sm">
-                    Descrição
-                </div>
-            </div>
-            <div class="p-2 rounded border-stone-800 border-2 bg-stone-900">
-                <div class="flex">
-                    <div class="w-1/3">Imagem</div>
-                    <div>
-                        <a href="/book.php?" class="font-semibold hover:underline">Título</a>
-                        <div class="text-xs italic">Autor</div>
-                        <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
-                    </div>
-                </div>
-                <div class="text-sm">
-                    Descrição
-                </div>
-            </div>
-            <div class="p-2 rounded border-stone-800 border-2 bg-stone-900">
-                <div class="flex">
-                    <div class="w-1/3">Imagem</div>
-                    <div>
-                        <a href="/book.php?" class="font-semibold hover:underline">Título</a>
-                        <div class="text-xs italic">Autor</div>
-                        <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
-                    </div>
-                </div>
-                <div class="text-sm">
-                    Descrição
-                </div>
-            </div>
-            <div class="p-2 rounded border-stone-800 border-2 bg-stone-900">
-                <div class="flex">
-                    <div class="w-1/3">Imagem</div>
-                    <div>
-                        <a href="/book.php?" class="font-semibold hover:underline">Título</a>
-                        <div class="text-xs italic">Autor</div>
-                        <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
-                    </div>
-                </div>
-                <div class="text-sm">
-                    Descrição
-                </div>
-            </div>
-            <div class="p-2 rounded border-stone-800 border-2 bg-stone-900">
-                <div class="flex">
-                    <div class="w-1/3">Imagem</div>
-                    <div>
-                        <a href="/book.php?" class="font-semibold hover:underline">Título</a>
-                        <div class="text-xs italic">Autor</div>
-                        <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
-                    </div>
-                </div>
-                <div class="text-sm">
-                    Descrição
-                </div>
-            </div>
-            <div class="p-2 rounded border-stone-800 border-2 bg-stone-900">
-                <div class="flex">
-                    <div class="w-1/3">Imagem</div>
-                    <div>
-                        <a href="/book.php?" class="font-semibold hover:underline">Título</a>
-                        <div class="text-xs italic">Autor</div>
-                        <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
-                    </div>
-                </div>
-                <div class="text-sm">
-                    Descrição
-                </div>
-            </div>
-            <div class="p-2 rounded border-stone-800 border-2 bg-stone-900">
-                <div class="flex">
-                    <div class="w-1/3">Imagem</div>
-                    <div>
-                        <a href="/book.php?" class="font-semibold hover:underline">Título</a>
-                        <div class="text-xs italic">Autor</div>
-                        <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
-                    </div>
-                </div>
-                <div class="text-sm">
-                    Descrição
-                </div>
-            </div>
+            <?php endforeach; ?>
         </div>
     </main>
 
