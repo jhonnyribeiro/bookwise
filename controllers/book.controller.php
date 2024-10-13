@@ -1,5 +1,5 @@
 <?php
-require('data.php');
+require "data.php";
 $id = $_REQUEST['id'];
 
 $filtered = array_filter($books, function ($book) use ($id) {

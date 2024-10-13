@@ -11,7 +11,7 @@
             <div class="flex">
                 <div class="w-1/3">Imagem</div>
                 <div class="space-y-1">
-                    <a href="/book.php?id=<?= $book['id'] ?>" class="font-semibold hover:underline"><?= $book['title'] ?></a>
+                    <a href="/book?id=<?= $book['id'] ?>" class="font-semibold hover:underline"><?= $book['title'] ?></a>
                     <div class="text-xs italic"><?= $book['author'] ?></div>
                     <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
                 </div>
