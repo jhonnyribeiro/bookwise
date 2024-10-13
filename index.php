@@ -32,13 +32,13 @@
             <button type="submit">Pesquisar</button>
         </form>
 
-        <div class="space-y-4">
-            <!-- Livro -->
-            <div class="w-1/3 p-2 rounded border-stone-800 border-2 bg-stone-900">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Lista de livros -->
+            <div class="p-2 rounded border-stone-800 border-2 bg-stone-900">
                 <div class="flex">
                     <div class="w-1/3">Imagem</div>
                     <div>
-                        <div class="font-semibold">Título</div>
+                        <a href="/livro.php?" class="font-semibold hover:underline">Título</a>
                         <div class="text-xs italic">Autor</div>
                         <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
                     </div>
@@ -46,7 +46,84 @@
                 <div class="text-sm">
                     Descrição
                 </div>
-
+            </div>
+            <div class="p-2 rounded border-stone-800 border-2 bg-stone-900">
+                <div class="flex">
+                    <div class="w-1/3">Imagem</div>
+                    <div>
+                        <a href="/livro.php?" class="font-semibold hover:underline">Título</a>
+                        <div class="text-xs italic">Autor</div>
+                        <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
+                    </div>
+                </div>
+                <div class="text-sm">
+                    Descrição
+                </div>
+            </div>
+            <div class="p-2 rounded border-stone-800 border-2 bg-stone-900">
+                <div class="flex">
+                    <div class="w-1/3">Imagem</div>
+                    <div>
+                        <a href="/livro.php?" class="font-semibold hover:underline">Título</a>
+                        <div class="text-xs italic">Autor</div>
+                        <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
+                    </div>
+                </div>
+                <div class="text-sm">
+                    Descrição
+                </div>
+            </div>
+            <div class="p-2 rounded border-stone-800 border-2 bg-stone-900">
+                <div class="flex">
+                    <div class="w-1/3">Imagem</div>
+                    <div>
+                        <a href="/livro.php?" class="font-semibold hover:underline">Título</a>
+                        <div class="text-xs italic">Autor</div>
+                        <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
+                    </div>
+                </div>
+                <div class="text-sm">
+                    Descrição
+                </div>
+            </div>
+            <div class="p-2 rounded border-stone-800 border-2 bg-stone-900">
+                <div class="flex">
+                    <div class="w-1/3">Imagem</div>
+                    <div>
+                        <a href="/livro.php?" class="font-semibold hover:underline">Título</a>
+                        <div class="text-xs italic">Autor</div>
+                        <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
+                    </div>
+                </div>
+                <div class="text-sm">
+                    Descrição
+                </div>
+            </div>
+            <div class="p-2 rounded border-stone-800 border-2 bg-stone-900">
+                <div class="flex">
+                    <div class="w-1/3">Imagem</div>
+                    <div>
+                        <a href="/livro.php?" class="font-semibold hover:underline">Título</a>
+                        <div class="text-xs italic">Autor</div>
+                        <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
+                    </div>
+                </div>
+                <div class="text-sm">
+                    Descrição
+                </div>
+            </div>
+            <div class="p-2 rounded border-stone-800 border-2 bg-stone-900">
+                <div class="flex">
+                    <div class="w-1/3">Imagem</div>
+                    <div>
+                        <a href="/livro.php?" class="font-semibold hover:underline">Título</a>
+                        <div class="text-xs italic">Autor</div>
+                        <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
+                    </div>
+                </div>
+                <div class="text-sm">
+                    Descrição
+                </div>
             </div>
         </div>
     </main>
