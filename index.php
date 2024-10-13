@@ -38,7 +38,7 @@
                 <div class="flex">
                     <div class="w-1/3">Imagem</div>
                     <div>
-                        <a href="/livro.php?" class="font-semibold hover:underline">Título</a>
+                        <a href="/book.php?" class="font-semibold hover:underline">Título</a>
                         <div class="text-xs italic">Autor</div>
                         <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
                     </div>
@@ -51,7 +51,7 @@
                 <div class="flex">
                     <div class="w-1/3">Imagem</div>
                     <div>
-                        <a href="/livro.php?" class="font-semibold hover:underline">Título</a>
+                        <a href="/book.php?" class="font-semibold hover:underline">Título</a>
                         <div class="text-xs italic">Autor</div>
                         <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
                     </div>
@@ -64,7 +64,7 @@
                 <div class="flex">
                     <div class="w-1/3">Imagem</div>
                     <div>
-                        <a href="/livro.php?" class="font-semibold hover:underline">Título</a>
+                        <a href="/book.php?" class="font-semibold hover:underline">Título</a>
                         <div class="text-xs italic">Autor</div>
                         <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
                     </div>
@@ -77,7 +77,7 @@
                 <div class="flex">
                     <div class="w-1/3">Imagem</div>
                     <div>
-                        <a href="/livro.php?" class="font-semibold hover:underline">Título</a>
+                        <a href="/book.php?" class="font-semibold hover:underline">Título</a>
                         <div class="text-xs italic">Autor</div>
                         <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
                     </div>
@@ -90,7 +90,7 @@
                 <div class="flex">
                     <div class="w-1/3">Imagem</div>
                     <div>
-                        <a href="/livro.php?" class="font-semibold hover:underline">Título</a>
+                        <a href="/book.php?" class="font-semibold hover:underline">Título</a>
                         <div class="text-xs italic">Autor</div>
                         <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
                     </div>
@@ -103,7 +103,7 @@
                 <div class="flex">
                     <div class="w-1/3">Imagem</div>
                     <div>
-                        <a href="/livro.php?" class="font-semibold hover:underline">Título</a>
+                        <a href="/book.php?" class="font-semibold hover:underline">Título</a>
                         <div class="text-xs italic">Autor</div>
                         <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
                     </div>
@@ -116,7 +116,7 @@
                 <div class="flex">
                     <div class="w-1/3">Imagem</div>
                     <div>
-                        <a href="/livro.php?" class="font-semibold hover:underline">Título</a>
+                        <a href="/book.php?" class="font-semibold hover:underline">Título</a>
                         <div class="text-xs italic">Autor</div>
                         <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
                     </div>
