@@ -1,5 +1,11 @@
 <?php
+require('data.php');
 $id = $_REQUEST['id'];
+
+$filtered = array_filter($books, function ($book) use ($id) {
+    return $book['id'] == $id;
+});
+$book = array_pop($filtered);
 ?>
 
 <!DOCTYPE html>
@@ -30,7 +36,19 @@ $id = $_REQUEST['id'];
     </header>
 
     <main class="mx-auto max-w-screen-lg space-y-6">
-        ID do Livro <?= $id ?>
+        <div class="p-2 rounded border-stone-800 border-2 bg-stone-900">
+            <div class="flex">
+                <div class="w-1/3">Imagem</div>
+                <div class="space-y-1">
+                    <a href="/book.php?id=<?= $book['id'] ?>" class="font-semibold hover:underline"><?= $book['title'] ?></a>
+                    <div class="text-xs italic"><?= $book['author'] ?></div>
+                    <div class="text-xs italic">&#9733;&#9733;&#9733;&#9733;(3 Avaliações)</div>
+                </div>
+            </div>
+            <div class="text-sm mt-2">
+                <?= $book['description'] ?>
+            </div>
+        </div>
     </main>
 
 </body>
