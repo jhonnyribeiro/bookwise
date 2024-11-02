@@ -38,3 +38,12 @@ alter table books add column user_id integer;
 
 
 select title, author, name from books b, users u where user_id  = 1 and user_id = u.id
+
+
+select title, author, name from books b
+join users u on user_id = u.id
+where user_id  = 1
+
+
+
+
